@@ -28,8 +28,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ais-developer
 
-# Build settings
-theme: minima
+
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
   - jekyll-feed
 
