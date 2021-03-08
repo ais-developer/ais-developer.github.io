@@ -8,6 +8,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ais-developer
 
+github: [metadata]
+
 sass:
-  sass_dir: _scss
-  style: compressed
+  sass_dir: _sass
+  style: compact
+
+plugins:
+  - jekyll-coffeescript
